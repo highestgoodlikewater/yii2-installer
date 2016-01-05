@@ -17,7 +17,7 @@
       "psr-4" : {"fbarrento\\Composer\\" : "src/"}
     },
     "extra" : {
-      "class" : "fbarrento\\Composer\\InstalerPlugin"
+      "class" : "fbarrento\\Composer\\InstallerPlugin"
     }
 
 }
