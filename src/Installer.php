@@ -26,7 +26,6 @@ class Installer extends LibraryInstaller
     public function getInstallPath(PackageInterface $package)
     {
         $prefix = substr($package->getPrettyName(), 0, 15);
-        var_dump($prefix);
         if('fbarrento/yii2-' !== $prefix){
             throw new \InvalidArgumentException(
                 'Unable to install template, phpdocumentor templates '
