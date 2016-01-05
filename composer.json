@@ -1,0 +1,23 @@
+{
+    "name": "fbarrento/yii2-installer",
+    "description": "Custom theme and module installer",
+    "type": "composer-plugin",
+    "require": {
+        "composer-plugin-api": "^1.0"
+    },
+    "license": "BSD3 Clause",
+    "authors": [
+        {
+            "name": "Francisco Barrento",
+            "email": "francisco.barrento@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload" : {
+      "psr-4" : {"fbarrento\\Composer\\" : "src/"}
+    },
+    "extra" : {
+      "class" : "fbarrento\\Composer\\InstalerPlugin"
+    }
+
+}
